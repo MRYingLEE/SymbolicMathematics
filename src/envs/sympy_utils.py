@@ -282,6 +282,17 @@ if __name__ == '__main__':
     a7 = sp.Symbol('a7', positive=True, real=True)
     a8 = sp.Symbol('a8', positive=True, real=True)
     a9 = sp.Symbol('a9', positive=True, real=True)
+    a10 = sp.Symbol('a10', positive=True, real=True)
+    a11 = sp.Symbol('a11', positive=True, real=True)
+    a12 = sp.Symbol('a12', positive=True, real=True)
+    a13 = sp.Symbol('a13', positive=True, real=True)
+    a14 = sp.Symbol('a14', positive=True, real=True)
+    a15 = sp.Symbol('a15', positive=True, real=True)
+    a16 = sp.Symbol('a16', positive=True, real=True)
+    a17 = sp.Symbol('a17', positive=True, real=True)
+    a18 = sp.Symbol('a18', positive=True, real=True)
+    a19 = sp.Symbol('a19', positive=True, real=True)
+
 
     local_dict = {
         'f': f,
@@ -298,6 +309,16 @@ if __name__ == '__main__':
         'a7': a7,
         'a8': a8,
         'a9': a9,
+        'a10': a10,
+        'a11': a11,
+        'a12': a12,
+        'a13': a13,
+        'a14': a14,
+        'a15': a15,
+        'a16': a16,
+        'a17': a17,
+        'a18': a18,
+        'a19': a19,
     }
 
     failed = 0
